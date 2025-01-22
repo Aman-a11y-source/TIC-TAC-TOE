@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+    background-color: aquamarine;
+    color:darkgreen;
+    font-size:x-large;
+     mix-blend-mode:luminosity; 
+    background-image: url("https://wallpapers.com/images/hd/green-grass-background-1920-x-1080-k31sqizlfvigeypt.jpg");
+    background-size:cover;
+}
+.container{
+    height: 90vh;
+    width:100vw;
+     background-color: coral; 
+  display: flex;
+  align-items:center ;
+  justify-content: center;
+ 
+
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
+#box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    box-shadow: 2px 5px 5px rgb(132, 92, 78);
+    border:none;
+    font-size: 10vmin;
+    background-color: aquamarine;
+    
+
+}
+.Reset{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 1px 5px 10px rgb(44, 38, 38);
+    position: absolute;
+    margin-top: 414px;
+    font-weight: 600;
+    
+
+}
+.new-btn{
+    padding: 0.5rem;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 1px 5px 10px rgb(44, 38, 38);
+    position: relative;
+    margin-bottom: 15px;
+    font-weight: 600;
+    
+}
+.hide{
+    visibility: hidden;
+} 
+pre{
+    position: absolute;
+    margin-top: 465px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
